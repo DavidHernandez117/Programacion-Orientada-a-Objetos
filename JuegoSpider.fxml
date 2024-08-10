@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="435.0" prefWidth="616.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="435.0" fitWidth="607.0" layoutX="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@minimalism_digital_art_pixels_pixel_art_cityscape_skyscraper_building_night-157867.jpg!s1" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" fontSmoothingType="LCD" layoutX="91.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Selecciona tu Personaje" textAlignment="CENTER" wrappingWidth="433.63671875">
+         <font>
+            <Font name="Arial Black" size="28.0" />
+         </font>
+      </Text>
+      <MenuButton layoutX="76.0" layoutY="257.0" mnemonicParsing="false" text="Spider-Man">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Fuerza: 100%" />
+          <MenuItem mnemonicParsing="false" text="Habilidad: 100%" />
+        </items>
+      </MenuButton>
+      <MenuButton layoutX="258.0" layoutY="257.0" mnemonicParsing="false" text="Venom">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Fuerza: 85%" />
+          <MenuItem mnemonicParsing="false" text="Habilidad: 95%" />
+        </items>
+      </MenuButton>
+      <MenuButton layoutX="428.0" layoutY="257.0" mnemonicParsing="false" text="Carnage">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Fuerza: 100%" />
+          <MenuItem mnemonicParsing="false" text="Habilidad: 101%" />
+        </items>
+      </MenuButton>
+      <ImageView fitHeight="109.0" fitWidth="74.0" layoutX="88.0" layoutY="138.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pngegg.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="94.0" fitWidth="76.0" layoutX="418.0" layoutY="151.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@PngItem_6471545.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="113.0" fitWidth="104.0" layoutX="241.0" layoutY="142.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pngwing.com.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
